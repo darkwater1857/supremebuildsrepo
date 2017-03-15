@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.supremebuilds" name="Supreme Builds Repository" version="1.0.0" provider-name="KodiSkills">
     <extension point="xbmc.addon.repository" name="Supreme Builds Repository">
-        <info compressed="false">http://supremeteam.supremebuilds.com/repository/addons.xml</info>
-        <checksum>http://supremeteam.supremebuilds.com/repository/addons.xml.md5</checksum>
-        <datadir zip="true">http://supremeteam.supremebuilds.com/repository/zips</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/kodiskills/supremebuildsrepo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodiskills/supremebuildsrepo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/kodiskills/supremebuildsrepo/raw/master/zips</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>All Official Supreme Builds Content Is Here</summary>
