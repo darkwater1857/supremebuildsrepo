@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-#
 <addon id="repository.supremebuilds" name="Supreme Builds Repository" version="1.0.0" provider-name="KodiSkills">
 	<extension point="xbmc.addon.repository" name="Supreme Builds Repository">
 		<info compressed="false">https://raw.githubusercontent.com/kodiskills/supremebuildsrepo/master/addons.xml</info>
@@ -13,7 +12,6 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-#
 <addon id="script.module.addon.common" 
 	     name="Common addon methods" 
 	     version="2.0.1" 
@@ -36,7 +34,6 @@
     <source></source>  
   </extension>
 </addon>
-#
 <addon id="plugin.video.xtream-codes" name="Xtream-Codes IPTV" version="1.0" provider-name="MikkM">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -55,7 +52,6 @@
     <platform>all</platform>
   </extension>
 </addon>
-#
 <addon id="plugin.program.supremebuildswizard" name="Supreme Builds Wizard" version="3.0.0" provider-name="KodiSkills">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -69,5 +65,4 @@
     <description lang="en">The Supreme Builds Wizard contains all official Supreme Builds, Add-ons and Apps, Maintenance Tools, Settings and more.</description>
     <platform>all</platform>
   </extension>
-#
 </addons>
