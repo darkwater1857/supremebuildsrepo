@@ -5,7 +5,7 @@ import os, xbmc, xbmcaddon
 #########################################################
 ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = 'Supreme Builds Wizard'
-EXCLUDES       = [ADDON_ID]
+EXCLUDES       = [ADDON_ID, 'repository.supremebuilds', 'repository.infadroid']
 # Text File with build info in it.
 BUILDFILE      = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/texts/builds.txt'
 # How often you would list it to check for build updates in days
@@ -69,7 +69,7 @@ THEME5         = '[COLOR '+COLOR1+']Current Theme:[/COLOR] [COLOR '+COLOR2+']%s[
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT    = 'No'
 # You can add \n to do line breaks
-CONTACT        = 'Thank you for choosing Supreme Builds.\r\n\r\nContact us on facebook at http://facebook.com/groups/supremebuilds'
+CONTACT        = 'Thank you for choosing Supreme Builds.\r\n\r\nContact us and get support on facebook at http://facebook.com/groups/supremebuilds'
 #Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON    = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/contactus.png'
 CONTACTFANART  = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/sbforumfanart.jpg'
@@ -88,13 +88,13 @@ WIZARDFILE     = ''
 ### AUTO INSTALL ########################################
 ########## REPO IF NOT INSTALLED ########################
 # Enable Auto Install 'Yes' or 'No'
-AUTOINSTALL    = 'No'
+AUTOINSTALL    = 'Yes'
 # Addon ID for the repository
-REPOID         = ''
+REPOID         = 'repository.supremebuilds'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML   = ''
+REPOADDONXML   = 'https://raw.githubusercontent.com/kodiskills/supremebuildsrepo/master/repository.supremebuilds/addon.xml'
 # Url to folder zip is located in
-REPOZIPURL     = ''
+REPOZIPURL     = 'https://github.com/kodiskills/supremebuildsrepo/raw/master/zips'
 #########################################################
 
 #########################################################
