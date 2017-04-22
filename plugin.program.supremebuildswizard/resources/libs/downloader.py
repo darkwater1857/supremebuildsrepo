@@ -53,9 +53,9 @@ def _pbhook(numblocks, blocksize, filesize, dp, start_time):
             kbps_speed = kbps_speed / 1024 
             mbps_speed = kbps_speed / 1024 
             total = float(filesize) / (1024 * 1024) 
-            mbs = '[COLOR orange]%.02f MB[/COLOR] of [B]%.02f MB[/B]' % (currently_downloaded, total)
-            e = '[COLOR white][B]Speed: [/B][/COLOR][COLOR orange]%.02f Mb/s ' % mbps_speed  + '[/COLOR]'
-            e += '[COLOR white][B]ETA: [/B][/COLOR][COLOR orange]%02d:%02d' % divmod(eta, 60)  + '[/COLOR]'
+            mbs = '[COLOR %s][B]Size:[/B] [COLOR %s]%.02f[/COLOR] MB of [COLOR %s]%.02f[/COLOR] MB[/COLOR]' % (COLOR2, COLOR1, currently_downloaded, COLOR1, total)
+            e = '[COLOR %s][B]Speed:[/B] [COLOR %s]%.02f [/COLOR]%s/s ' % (COLOR2, COLOR1, kbps_speed, type_speed)
+            e += '[B]ETA:[/B] [COLOR '+COLOR1+']%02d:%02d[/COLOR][/COLOR]' % divmod(eta, 60)
             dp.update(percent, mbs, e)
 	except Exception, e:
 		wiz.log("ERROR Downloading: %s" % str(e), xbmc.LOGERROR)
