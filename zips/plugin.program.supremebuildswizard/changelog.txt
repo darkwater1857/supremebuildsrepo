@@ -21,4 +21,4 @@ v3.0.1
 -Added in Exclusions During Fresh Start for Supreme Builds Repository and Infadroid Repository (credit: Surfacingx , KodiSkills)
 
 v3.0.2
--Updated downloader.py
+-Updated downloader.py (credit: Charlie Whelan)
