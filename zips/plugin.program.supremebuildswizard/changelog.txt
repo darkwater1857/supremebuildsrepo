@@ -19,3 +19,6 @@ v3.0.1
 -Fixed Official Kodi APK downloads issue (credit: Surfacingx)
 -Added in Auto Install of Supreme Builds Repository (credit: Surfacingx , KodiSkills)
 -Added in Exclusions During Fresh Start for Supreme Builds Repository and Infadroid Repository (credit: Surfacingx , KodiSkills)
+
+v3.0.2
+-Updated downloader.py
