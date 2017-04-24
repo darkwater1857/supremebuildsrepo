@@ -22,3 +22,6 @@ v3.0.1
 
 v3.0.2
 -Updated downloader.py (credit: Charlie Whelan)
+
+v3.0.3
+-Turned off auto install repo as causing issues with fork (credit: KodiSkills)
