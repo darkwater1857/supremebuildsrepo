@@ -25,3 +25,6 @@ v3.0.2
 
 v3.0.3
 -Turned off auto install repo as causing issues with fork (credit: KodiSkills)
+
+v3.0.4
+-Host change (credit: KodiSkills)

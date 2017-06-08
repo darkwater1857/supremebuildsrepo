@@ -7,19 +7,19 @@ ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = 'Supreme Builds Wizard'
 EXCLUDES       = [ADDON_ID, 'repository.supremebuilds', 'repository.infadroid']
 # Text File with build info in it.
-BUILDFILE      = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/texts/builds.txt'
+BUILDFILE      = 'http://supreme1.srve.io/sbwiz/texts/builds.txt'
 # How often you would list it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 0
 # Text File with apk info in it.
-APKFILE        = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/texts/apks.txt'
+APKFILE        = 'http://supreme1.srve.io/sbwiz/texts/apks.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE   = 'YouTube Videos'
-YOUTUBEFILE    = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/texts/youtube.txt'
+YOUTUBEFILE    = 'http://supreme1.srve.io/sbwiz/texts/youtube.txt'
 # Text File for addon installer.  Leave as 'http://' to ignore
-ADDONFILE      = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/texts/addons.txt'
+ADDONFILE      = 'http://supreme1.srve.io/sbwiz/texts/addons.txt'
 # Text File for advanced settings.  Leave as 'http://' to ignore
-ADVANCEDFILE   = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/texts/advanced.txt'
+ADVANCEDFILE   = 'http://supreme1.srve.io/sbwiz/texts/advanced.txt'
 
 # Dont need to edit just here for icons stored locally
 PATH           = xbmcaddon.Addon().getAddonInfo('path')
@@ -34,17 +34,17 @@ ART            = os.path.join(PATH, 'resources', 'art')
 # Example:  ICONMAINT     = os.path.join(ART, 'mainticon.png')
 #           ICONSETTINGS  = 'http://aftermathwizard.net/repo/wizard/settings.png'
 # Leave as http:// for default icon
-ICONBUILDS     = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/supremebuilds.png'
-ICONMAINT      = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/maintenance.png'
-ICONAPK        = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/apkinstaller.png'
-ICONADDONS     = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/addoninstaller.png'
-ICONYOUTUBE    = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/youtube.png'
-ICONSAVE       = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/savedata.png'
-ICONTRAKT      = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/trakt.png'
-ICONREAL       = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/realdebrid.png'
-ICONLOGIN      = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/login.png'
-ICONCONTACT    = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/contactus.png'
-ICONSETTINGS   = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/settings.png'
+ICONBUILDS     = 'http://supreme1.srve.io/sbwiz/images/supremebuilds.png'
+ICONMAINT      = 'http://supreme1.srve.io/sbwiz/images/maintenance.png'
+ICONAPK        = 'http://supreme1.srve.io/sbwiz/images/apkinstaller.png'
+ICONADDONS     = 'http://supreme1.srve.io/sbwiz/images/addoninstaller.png'
+ICONYOUTUBE    = 'http://supreme1.srve.io/sbwiz/images/youtube.png'
+ICONSAVE       = 'http://supreme1.srve.io/sbwiz/images/savedata.png'
+ICONTRAKT      = 'http://supreme1.srve.io/sbwiz/images/trakt.png'
+ICONREAL       = 'http://supreme1.srve.io/sbwiz/images/realdebrid.png'
+ICONLOGIN      = 'http://supreme1.srve.io/sbwiz/images/login.png'
+ICONCONTACT    = 'http://supreme1.srve.io/sbwiz/images/contactus.png'
+ICONSETTINGS   = 'http://supreme1.srve.io/sbwiz/images/settings.png'
 # Hide the ====== seperators 'Yes' or 'No'
 HIDESPACERS    = 'No'
 # Character used in seperator
@@ -71,8 +71,8 @@ HIDECONTACT    = 'No'
 # You can add \n to do line breaks
 CONTACT        = 'Thank you for choosing Supreme Builds.\r\n\r\nContact us and get support on facebook at http://facebook.com/groups/supremebuilds'
 #Images used for the contact window.  http:// for default icon and fanart
-CONTACTICON    = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/contactus.png'
-CONTACTFANART  = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/sbforumfanart.jpg'
+CONTACTICON    = 'http://supreme1.srve.io/sbwiz/images/contactus.png'
+CONTACTFANART  = 'http://supreme1.srve.io/sbwiz/images/sbforumfanart.jpg'
 #########################################################
 
 #########################################################
@@ -103,12 +103,12 @@ REPOZIPURL     = 'https://github.com/kodiskills/supremebuildsrepo/raw/master/zip
 # Enable Notification screen Yes or No
 ENABLE         = 'Yes'
 # Url to notification file
-NOTIFICATION   = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/texts/notify.txt'
+NOTIFICATION   = 'http://supreme1.srve.io/sbwiz/texts/notify.txt'
 # Use either 'Text' or 'Image'
 HEADERTYPE     = 'Image'
 HEADERMESSAGE  = ''
 # url to image if using Image 424x180
-HEADERIMAGE    = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/sbnews.png'
+HEADERIMAGE    = 'http://supreme1.srve.io/sbwiz/images/sbnews.png'
 # Background for Notification Window
-BACKGROUND     = 'http://supremeteam.supremebuilds.com/kodiskills/supremebuildswizard/images/sbsplash.jpg'
+BACKGROUND     = 'http://supreme1.srve.io/sbwiz/images/sbsplash.jpg'
 #########################################################
