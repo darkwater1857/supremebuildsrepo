@@ -34,3 +34,6 @@ v3.0.5
 
 v3.0.6
 -Changed naming convention (credit: KodiSkills)
+
+v3.0.7
+-Changed default auto cleanup to weekly (credit: Prometheus)
