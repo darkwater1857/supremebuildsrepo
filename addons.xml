@@ -15,65 +15,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.LimitlessIPTV"
-       name="Limitless [COLOR yellow]IPTV[/COLOR]"
-       version="1.0"
-       provider-name="sClarke">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">LimitlessIPTV</summary>
-    <language>en</language>
-    <description lang="en">Limitless IPTV Official Addon - Supplier of Great Quality and Stable Streams</description>
-     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.LimitlessV2"
-       name="Limitless [COLOR yellow]V2[/COLOR]"
-       version="1.1"
-       provider-name="sClarke">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">LimitlessV2</summary>
-    <language>en</language>
-    <description lang="en">LimitlessV2 Official Addon - Supplier of Great Quality and Stable Streams</description>
-     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.xtream-codes" name="Xtream-Codes IPTV" version="1.0" provider-name="MikkM">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="init.py">
-        <provides>video executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Xtream-Codes IPTV</summary>
-    <website>http://www.xtream-codes.com/</website>
-    <description lang="en">IPTV Addon for Xteam-Codes iptv panel</description>
-    <forum>http://www.xtream-codes.com/forum</forum>
-    <email>mikkm@mikkm.ul.ee</email>
-    <disclaimer lang="en">You may use and share this addon however you like, you may NOT edit this addon in any way without conesnt of developer. Skype:MikkM</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="repository.supremebuilds" name="Supreme Builds Repository" version="1.0.0" provider-name="KodiSkills">
 	<extension point="xbmc.addon.repository" name="Supreme Builds Repository">
 		<info compressed="false">https://raw.githubusercontent.com/kodiskills/supremebuildsrepo/master/addons.xml</info>
