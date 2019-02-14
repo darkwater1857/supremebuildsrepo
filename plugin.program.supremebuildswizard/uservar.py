@@ -1,11 +1,22 @@
 import os, xbmc, xbmcaddon
 
 #########################################################
+### Global Variables ####################################
+#########################################################
+PATH           = xbmcaddon.Addon().getAddonInfo('path')
+ART            = os.path.join(PATH, 'resources', 'art')
+#########################################################
+
+#########################################################
 ### User Edit Variables #################################
 #########################################################
 ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = 'Supreme Builds Wizard'
+BUILDERNAME    = 'KodiSkills'
 EXCLUDES       = [ADDON_ID, 'repository.supremebuilds']
+# Enable/Disable the text file caching with 'Yes' or 'No' and age being how often it rechecks in minutes
+CACHETEXT      = 'No'
+CACHEAGE       = 30
 # Text File with build info in it.
 BUILDFILE      = 'https://wizard.supremebuilds.com/texts/builds.txt'
 # How often you would list it to check for build updates in days
@@ -20,10 +31,7 @@ YOUTUBEFILE    = 'https://wizard.supremebuilds.com/texts/youtube.txt'
 ADDONFILE      = 'https://wizard.supremebuilds.com/texts/addons.txt'
 # Text File for advanced settings.  Leave as 'http://' to ignore
 ADVANCEDFILE   = 'https://wizard.supremebuilds.com/texts/advanced.txt'
-
-# Dont need to edit just here for icons stored locally
-PATH           = xbmcaddon.Addon().getAddonInfo('path')
-ART            = os.path.join(PATH, 'resources', 'art')
+#########################################################
 
 #########################################################
 ### THEMING MENU ITEMS ##################################
@@ -36,6 +44,7 @@ ART            = os.path.join(PATH, 'resources', 'art')
 # Leave as http:// for default icon
 ICONBUILDS     = 'https://wizard.supremebuilds.com/images/supremebuilds.png'
 ICONMAINT      = 'https://wizard.supremebuilds.com/images/maintenance.png'
+ICONSPEED      = 'https://wizard.supremebuilds.com/images/speed.png'
 ICONAPK        = 'https://wizard.supremebuilds.com/images/apkinstaller.png'
 ICONADDONS     = 'https://wizard.supremebuilds.com/images/addoninstaller.png'
 ICONYOUTUBE    = 'https://wizard.supremebuilds.com/images/youtube.png'
@@ -76,8 +85,9 @@ CONTACTFANART  = 'https://wizard.supremebuilds.com/images/sbforumfanart.jpg'
 #########################################################
 
 #########################################################
-### AUTO UPDATE #########################################
-########## FOR THOSE WITH NO REPO #######################
+### Auto Update                   #######################
+###        For Those With No Repo #######################
+#########################################################
 # Enable Auto Update 'Yes' or 'No'
 AUTOUPDATE     = 'No'
 # Url to wizard version
@@ -85,8 +95,9 @@ WIZARDFILE     = ''
 #########################################################
 
 #########################################################
-### AUTO INSTALL ########################################
-########## REPO IF NOT INSTALLED ########################
+### Auto Install                 ########################
+###        Repo If Not Installed ########################
+#########################################################
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL    = 'No'
 # Addon ID for the repository
@@ -106,9 +117,13 @@ ENABLE         = 'Yes'
 NOTIFICATION   = 'https://wizard.supremebuilds.com/texts/notify.txt'
 # Use either 'Text' or 'Image'
 HEADERTYPE     = 'Image'
+# Font size of header
+FONTHEADER     = 'Font14'
 HEADERMESSAGE  = ''
 # url to image if using Image 424x180
 HEADERIMAGE    = 'https://wizard.supremebuilds.com/images/sbnews.png'
+# Font for Notification Window
+FONTSETTINGS   = 'Font13'
 # Background for Notification Window
 BACKGROUND     = 'https://wizard.supremebuilds.com/images/sbsplash.jpg'
 #########################################################

@@ -18,11 +18,8 @@
 ################################################################################
 
 import xbmc, xbmcgui, urllib, sys, time, uservar
-import socket
 import wizard as wiz
 
-timeout = 180
-socket.setdefaulttimeout(timeout)
 ADDONTITLE     = uservar.ADDONTITLE
 COLOR1         = uservar.COLOR1
 COLOR2         = uservar.COLOR2
