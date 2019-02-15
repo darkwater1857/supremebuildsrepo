@@ -15,14 +15,14 @@ ADDONTITLE     = 'Supreme Builds Wizard'
 BUILDERNAME    = 'KodiSkills'
 EXCLUDES       = [ADDON_ID, 'repository.supremebuilds']
 # Enable/Disable the text file caching with 'Yes' or 'No' and age being how often it rechecks in minutes
-CACHETEXT      = 'No'
+CACHETEXT      = 'Yes'
 CACHEAGE       = 30
 # Text File with build info in it.
 BUILDFILE      = 'https://wizard.supremebuilds.com/texts/builds.txt'
-# How often you would list it to check for build updates in days
+# How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 2
-# Text File with apk info in it.
+# Text File with apk info in it.  Leave as 'http://' to ignore
 APKFILE        = 'https://wizard.supremebuilds.com/texts/apks.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE   = 'YouTube Videos'
@@ -34,7 +34,7 @@ ADVANCEDFILE   = 'https://wizard.supremebuilds.com/texts/advanced.txt'
 #########################################################
 
 #########################################################
-### THEMING MENU ITEMS ##################################
+### Theming Menu Items ##################################
 #########################################################
 # If you want to use locally stored icons the place them in the Resources/Art/
 # folder of the wizard then use os.path.join(ART, 'imagename.png')
@@ -54,7 +54,7 @@ ICONREAL       = 'https://wizard.supremebuilds.com/images/realdebrid.png'
 ICONLOGIN      = 'https://wizard.supremebuilds.com/images/login.png'
 ICONCONTACT    = 'https://wizard.supremebuilds.com/images/contactus.png'
 ICONSETTINGS   = 'https://wizard.supremebuilds.com/images/settings.png'
-# Hide the ====== seperators 'Yes' or 'No'
+# Hide the section seperators 'Yes' or 'No'
 HIDESPACERS    = 'No'
 # Character used in seperator
 SPACER         = '='
@@ -64,7 +64,7 @@ SPACER         = '='
 COLOR1         = 'firebrick'
 COLOR2         = 'ghostwhite'
 # Primary menu items   / %s is the menu item and is required
-THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']Supreme Builds[/COLOR])[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR][/I]'
+THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']Supreme Builds[/COLOR])[/I][/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR]'
 # Build Names          / %s is the menu item and is required
 THEME2         = '[COLOR '+COLOR2+']%s[/COLOR]'
 # Alternate items      / %s is the menu item and is required
@@ -78,7 +78,7 @@ THEME5         = '[COLOR '+COLOR1+']Current Theme:[/COLOR] [COLOR '+COLOR2+']%s[
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT    = 'No'
 # You can add \n to do line breaks
-CONTACT        = 'Thank you for choosing Supreme Builds.\r\n\r\nContact us on facebook at https://facebook.com/groups/supremebuilds'
+CONTACT        = 'Thank you for choosing Supreme Builds.\n\nContact us on facebook at https://facebook.com/groups/supremebuilds'
 #Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON    = 'https://wizard.supremebuilds.com/images/contactus.png'
 CONTACTFANART  = 'https://wizard.supremebuilds.com/images/sbforumfanart.jpg'
@@ -91,7 +91,7 @@ CONTACTFANART  = 'https://wizard.supremebuilds.com/images/sbforumfanart.jpg'
 # Enable Auto Update 'Yes' or 'No'
 AUTOUPDATE     = 'No'
 # Url to wizard version
-WIZARDFILE     = ''
+WIZARDFILE     = BUILDFILE
 #########################################################
 
 #########################################################
@@ -103,13 +103,13 @@ AUTOINSTALL    = 'No'
 # Addon ID for the repository
 REPOID         = 'repository.supremebuilds'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML   = 'https://raw.githubusercontent.com/kodiskills/supremebuildsrepo/master/repository.supremebuilds/addon.xml'
+REPOADDONXML   = 'https://raw.githubusercontent.com/kodiskills/supremebuildsrepo/master/repository.supremebuilds/addons.xml'
 # Url to folder zip is located in
 REPOZIPURL     = 'https://github.com/kodiskills/supremebuildsrepo/raw/master/zips'
 #########################################################
 
 #########################################################
-### NOTIFICATION WINDOW##################################
+### Notification Window #################################
 #########################################################
 # Enable Notification screen Yes or No
 ENABLE         = 'Yes'
@@ -119,7 +119,7 @@ NOTIFICATION   = 'https://wizard.supremebuilds.com/texts/notify.txt'
 HEADERTYPE     = 'Image'
 # Font size of header
 FONTHEADER     = 'Font14'
-HEADERMESSAGE  = ''
+HEADERMESSAGE  = '[B][COLOR firebrick]Supreme Builds[/COLOR][/B] Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE    = 'https://wizard.supremebuilds.com/images/sbnews.png'
 # Font for Notification Window

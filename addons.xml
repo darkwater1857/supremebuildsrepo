@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.supremebuildswizard" name="Supreme Builds Wizard" version="4.0.0" provider-name="KodiSkills">
+<addon id="plugin.program.supremebuildswizard" name="Supreme Builds Wizard" version="4.0.1" provider-name="KodiSkills">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>

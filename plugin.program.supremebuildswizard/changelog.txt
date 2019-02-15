@@ -40,3 +40,6 @@ v3.0.7
 
 v4.0.0
 -Updated to work with Kodi 18 (credit:drinfernoo , FireTV Guru)
+
+v4.0.1
+-Updated to fix bug causing spinning (credit:drinfernoo)
